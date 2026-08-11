@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@sorteahn.local",
+      "phone": "",
+      "password": "2ae5372ae5a99541ba418754ce55fa90:cce3abff425b41cb73bd7433b636d607cec55d2a05c34b75007e8c90841638e8d8b195a21ab751b6225468ec141649eb776424719ab03c8f5f13ce4f48a0dc99",
+      "role": "admin"
+    }
+  ],
+  "raffles": [
+    {
+      "id": 1,
+      "code": "SH001",
+      "prize": "L 100,000 en efectivo",
+      "price": 20,
+      "quantity": 10000,
+      "drawDate": "",
+      "status": "Activo",
+      "description": "Sorteo de demostración. Configurá las reglas y autorización antes de operar con dinero real."
+    }
+  ],
+  "tickets": [],
+  "orders": [],
+  "audit": []
+}

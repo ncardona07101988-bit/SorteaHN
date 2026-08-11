@@ -1,0 +1,8 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SorteaHN Admin</title><link rel="stylesheet" href="/admin.css"></head><body>
+<header><a class="logo" href="/">Sortea<span>HN</span> Admin</a><button onclick="location='/'">Volver a la página</button></header>
+<main><h1>Panel administrativo</h1><p class="muted">Gestión de prueba. El acceso requiere una cuenta con rol administrador.</p>
+<div class="cards"><div><small>Usuarios</small><b id="users">0</b></div><div><small>Órdenes</small><b id="orders">0</b></div><div><small>Números pagados</small><b id="sold">0</b></div><div><small>Ventas</small><b id="sales">L 0</b></div></div>
+<section class="panel"><h2>Crear sorteo</h2><form id="rf" class="form"><input id="prize" placeholder="Premio" required><input id="price" type="number" value="20" required><input id="quantity" type="number" value="10000" required><input id="date" type="datetime-local"><select id="status"><option>En preparación</option><option>Activo</option><option>Cerrado</option><option>Finalizado</option></select><textarea id="desc" placeholder="Descripción/reglas"></textarea><button class="cta">Guardar</button></form></section>
+<section class="panel"><h2>Órdenes</h2><div id="orderList"></div></section>
+<section class="panel draw"><h2>Ganador (DEMO)</h2><button class="danger" id="draw">Simular selección</button><div id="winner"></div></section>
+</main><script src="/admin.js"></script></body></html>

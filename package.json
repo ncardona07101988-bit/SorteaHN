@@ -1,0 +1,7 @@
+{
+  "name": "sorteahn-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SorteaHN - aplicación web full-stack MVP funcional",
+  "scripts": { "start": "node server.js" }
+}

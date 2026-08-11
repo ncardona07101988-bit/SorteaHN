@@ -1,0 +1,7 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SorteaHN</title><link rel="stylesheet" href="/app.css"></head><body>
+<header><a class="logo" href="/">Sortea<span>HN</span></a><nav><a href="#sorteo">Sorteo</a><a href="#mis">Mis números</a><button id="authBtn">Iniciar sesión</button><button id="adminBtn" hidden>Panel admin</button></nav></header>
+<main><section class="hero"><p>SORTEOS 100% HONDUREÑOS</p><h1>Tu oportunidad de ganar está aquí.</h1><a href="#sorteo" class="cta">Ver sorteo</a></section>
+<section id="sorteo" class="card"><div class="head"><div><small id="code"></small><h2 id="prize">Cargando...</h2><p>Precio por número: <b id="price"></b></p></div><div class="stat"><b id="available">—</b><small>disponibles</small></div></div><div id="numbers" class="numbers"></div><div class="buybar"><span><b id="count">0</b> números · <b id="total">L 0</b></span><button class="cta" id="buy">Continuar</button></div></section>
+<section id="mis" class="card"><h2>Mis participaciones</h2><div id="orders">Iniciá sesión para ver tus órdenes.</div></section></main>
+<div id="modal" class="modal hidden"><div class="modalbox"><button class="x" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<script src="/app.js"></script></body></html>
